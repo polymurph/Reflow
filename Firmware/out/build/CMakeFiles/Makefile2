@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/ed/github/Reflow/Firmware/out/build
 # Target rules for target CMakeFiles/reflow.dir
 
 # All Build rule for target.
-CMakeFiles/reflow.dir/all:
+CMakeFiles/reflow.dir/all: bsl/CMakeFiles/bsl.dir/all
 	$(MAKE) -f CMakeFiles/reflow.dir/build.make CMakeFiles/reflow.dir/depend
 	$(MAKE) -f CMakeFiles/reflow.dir/build.make CMakeFiles/reflow.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ed/github/Reflow/Firmware/out/build/CMakeFiles --progress-num=3,4 "Built target reflow"
@@ -81,7 +81,7 @@ all: CMakeFiles/reflow.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/reflow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ed/github/Reflow/Firmware/out/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ed/github/Reflow/Firmware/out/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/reflow.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ed/github/Reflow/Firmware/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/reflow.dir/rule
@@ -105,12 +105,12 @@ clean: CMakeFiles/reflow.dir/clean
 # Directory level rules for directory bsl
 
 # Convenience name for "all" pass in the directory.
-bsl/all: bsl/CMakeFiles/bsl.hpp.dir/all
+bsl/all: bsl/CMakeFiles/bsl.dir/all
 
 .PHONY : bsl/all
 
 # Convenience name for "clean" pass in the directory.
-bsl/clean: bsl/CMakeFiles/bsl.hpp.dir/clean
+bsl/clean: bsl/CMakeFiles/bsl.dir/clean
 
 .PHONY : bsl/clean
 
@@ -120,39 +120,39 @@ bsl/preinstall:
 .PHONY : bsl/preinstall
 
 #=============================================================================
-# Target rules for target bsl/CMakeFiles/bsl.hpp.dir
+# Target rules for target bsl/CMakeFiles/bsl.dir
 
 # All Build rule for target.
-bsl/CMakeFiles/bsl.hpp.dir/all:
-	$(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/depend
-	$(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ed/github/Reflow/Firmware/out/build/CMakeFiles --progress-num=1,2 "Built target bsl.hpp"
-.PHONY : bsl/CMakeFiles/bsl.hpp.dir/all
+bsl/CMakeFiles/bsl.dir/all:
+	$(MAKE) -f bsl/CMakeFiles/bsl.dir/build.make bsl/CMakeFiles/bsl.dir/depend
+	$(MAKE) -f bsl/CMakeFiles/bsl.dir/build.make bsl/CMakeFiles/bsl.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ed/github/Reflow/Firmware/out/build/CMakeFiles --progress-num=1,2 "Built target bsl"
+.PHONY : bsl/CMakeFiles/bsl.dir/all
 
 # Include target in all.
-all: bsl/CMakeFiles/bsl.hpp.dir/all
+all: bsl/CMakeFiles/bsl.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-bsl/CMakeFiles/bsl.hpp.dir/rule: cmake_check_build_system
+bsl/CMakeFiles/bsl.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ed/github/Reflow/Firmware/out/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 bsl/CMakeFiles/bsl.hpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 bsl/CMakeFiles/bsl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ed/github/Reflow/Firmware/out/build/CMakeFiles 0
-.PHONY : bsl/CMakeFiles/bsl.hpp.dir/rule
+.PHONY : bsl/CMakeFiles/bsl.dir/rule
 
 # Convenience name for target.
-bsl.hpp: bsl/CMakeFiles/bsl.hpp.dir/rule
+bsl: bsl/CMakeFiles/bsl.dir/rule
 
-.PHONY : bsl.hpp
-
-# clean rule for target.
-bsl/CMakeFiles/bsl.hpp.dir/clean:
-	$(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/clean
-.PHONY : bsl/CMakeFiles/bsl.hpp.dir/clean
+.PHONY : bsl
 
 # clean rule for target.
-clean: bsl/CMakeFiles/bsl.hpp.dir/clean
+bsl/CMakeFiles/bsl.dir/clean:
+	$(MAKE) -f bsl/CMakeFiles/bsl.dir/build.make bsl/CMakeFiles/bsl.dir/clean
+.PHONY : bsl/CMakeFiles/bsl.dir/clean
+
+# clean rule for target.
+clean: bsl/CMakeFiles/bsl.dir/clean
 
 .PHONY : clean
 

@@ -124,17 +124,17 @@ reflow/fast:
 .PHONY : reflow/fast
 
 #=============================================================================
-# Target rules for targets named bsl.hpp
+# Target rules for targets named bsl
 
 # Build rule for target.
-bsl.hpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bsl.hpp
-.PHONY : bsl.hpp
+bsl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bsl
+.PHONY : bsl
 
 # fast build rule for target.
-bsl.hpp/fast:
-	$(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/build
-.PHONY : bsl.hpp/fast
+bsl/fast:
+	$(MAKE) -f bsl/CMakeFiles/bsl.dir/build.make bsl/CMakeFiles/bsl.dir/build
+.PHONY : bsl/fast
 
 main.o: main.cpp.o
 
@@ -172,7 +172,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... reflow"
 	@echo "... edit_cache"
-	@echo "... bsl.hpp"
+	@echo "... bsl"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

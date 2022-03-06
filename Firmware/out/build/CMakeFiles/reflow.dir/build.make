@@ -79,6 +79,7 @@ reflow_EXTERNAL_OBJECTS =
 
 reflow: CMakeFiles/reflow.dir/main.cpp.o
 reflow: CMakeFiles/reflow.dir/build.make
+reflow: bsl/libbsl.a
 reflow: CMakeFiles/reflow.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ed/github/Reflow/Firmware/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable reflow"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reflow.dir/link.txt --verbose=$(VERBOSE)

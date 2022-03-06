@@ -1,1 +1,1 @@
-add_library(bsl.hpp bsl.cpp)
+add_library(bsl bsl.cpp)

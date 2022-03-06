@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-bsl/CMakeFiles/bsl.hpp.dir/rule:
-	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f CMakeFiles/Makefile2 bsl/CMakeFiles/bsl.hpp.dir/rule
-.PHONY : bsl/CMakeFiles/bsl.hpp.dir/rule
+bsl/CMakeFiles/bsl.dir/rule:
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f CMakeFiles/Makefile2 bsl/CMakeFiles/bsl.dir/rule
+.PHONY : bsl/CMakeFiles/bsl.dir/rule
 
 # Convenience name for target.
-bsl.hpp: bsl/CMakeFiles/bsl.hpp.dir/rule
+bsl: bsl/CMakeFiles/bsl.dir/rule
 
-.PHONY : bsl.hpp
+.PHONY : bsl
 
 # fast build rule for target.
-bsl.hpp/fast:
-	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/build
-.PHONY : bsl.hpp/fast
+bsl/fast:
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.dir/build.make bsl/CMakeFiles/bsl.dir/build
+.PHONY : bsl/fast
 
 bsl.o: bsl.cpp.o
 
@@ -131,7 +131,7 @@ bsl.o: bsl.cpp.o
 
 # target to build an object file
 bsl.cpp.o:
-	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/bsl.cpp.o
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.dir/build.make bsl/CMakeFiles/bsl.dir/bsl.cpp.o
 .PHONY : bsl.cpp.o
 
 bsl.i: bsl.cpp.i
@@ -140,7 +140,7 @@ bsl.i: bsl.cpp.i
 
 # target to preprocess a source file
 bsl.cpp.i:
-	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/bsl.cpp.i
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.dir/build.make bsl/CMakeFiles/bsl.dir/bsl.cpp.i
 .PHONY : bsl.cpp.i
 
 bsl.s: bsl.cpp.s
@@ -149,7 +149,7 @@ bsl.s: bsl.cpp.s
 
 # target to generate assembly for a file
 bsl.cpp.s:
-	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/bsl.cpp.s
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.dir/build.make bsl/CMakeFiles/bsl.dir/bsl.cpp.s
 .PHONY : bsl.cpp.s
 
 # Help Target
@@ -159,7 +159,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... bsl.hpp"
+	@echo "... bsl"
 	@echo "... edit_cache"
 	@echo "... bsl.o"
 	@echo "... bsl.i"

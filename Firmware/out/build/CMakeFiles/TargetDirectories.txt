@@ -2,5 +2,5 @@
 /home/ed/github/Reflow/Firmware/out/build/CMakeFiles/reflow.dir
 /home/ed/github/Reflow/Firmware/out/build/CMakeFiles/edit_cache.dir
 /home/ed/github/Reflow/Firmware/out/build/bsl/CMakeFiles/rebuild_cache.dir
-/home/ed/github/Reflow/Firmware/out/build/bsl/CMakeFiles/bsl.hpp.dir
+/home/ed/github/Reflow/Firmware/out/build/bsl/CMakeFiles/bsl.dir
 /home/ed/github/Reflow/Firmware/out/build/bsl/CMakeFiles/edit_cache.dir
