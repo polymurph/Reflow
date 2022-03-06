@@ -9,7 +9,7 @@ project(reflow)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-add_subdirectory(${PROJECT_SOURCE_DIR}bsl)
+add_subdirectory(${PROJECT_SOURCE_DIR}/bsl)
 
 # adding boatdsupport layer
-add_subdirectory(bsl)
+#add_subdirectory(BSL_DIR)

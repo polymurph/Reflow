@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ed/github/Reflow/Firmware/out/build/CMakeFiles /home/ed/github/Reflow/Firmware/out/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/ed/github/Reflow/Firmware/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ed/github/Reflow/Firmware/out/build/CMakeFiles /home/ed/github/Reflow/Firmware/out/build/bsl/CMakeFiles/progress.marks
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f CMakeFiles/Makefile2 bsl/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ed/github/Reflow/Firmware/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f CMakeFiles/Makefile2 bsl/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,71 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f CMakeFiles/Makefile2 bsl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f CMakeFiles/Makefile2 bsl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ed/github/Reflow/Firmware/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named reflow
+# Convenience name for target.
+bsl/CMakeFiles/bsl.hpp.dir/rule:
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f CMakeFiles/Makefile2 bsl/CMakeFiles/bsl.hpp.dir/rule
+.PHONY : bsl/CMakeFiles/bsl.hpp.dir/rule
 
-# Build rule for target.
-reflow: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 reflow
-.PHONY : reflow
+# Convenience name for target.
+bsl.hpp: bsl/CMakeFiles/bsl.hpp.dir/rule
 
-# fast build rule for target.
-reflow/fast:
-	$(MAKE) -f CMakeFiles/reflow.dir/build.make CMakeFiles/reflow.dir/build
-.PHONY : reflow/fast
-
-#=============================================================================
-# Target rules for targets named bsl.hpp
-
-# Build rule for target.
-bsl.hpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bsl.hpp
 .PHONY : bsl.hpp
 
 # fast build rule for target.
 bsl.hpp/fast:
-	$(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/build
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/build
 .PHONY : bsl.hpp/fast
 
-main.o: main.cpp.o
+bsl.o: bsl.cpp.o
 
-.PHONY : main.o
+.PHONY : bsl.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/reflow.dir/build.make CMakeFiles/reflow.dir/main.cpp.o
-.PHONY : main.cpp.o
+bsl.cpp.o:
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/bsl.cpp.o
+.PHONY : bsl.cpp.o
 
-main.i: main.cpp.i
+bsl.i: bsl.cpp.i
 
-.PHONY : main.i
+.PHONY : bsl.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/reflow.dir/build.make CMakeFiles/reflow.dir/main.cpp.i
-.PHONY : main.cpp.i
+bsl.cpp.i:
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/bsl.cpp.i
+.PHONY : bsl.cpp.i
 
-main.s: main.cpp.s
+bsl.s: bsl.cpp.s
 
-.PHONY : main.s
+.PHONY : bsl.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/reflow.dir/build.make CMakeFiles/reflow.dir/main.cpp.s
-.PHONY : main.cpp.s
+bsl.cpp.s:
+	cd /home/ed/github/Reflow/Firmware/out/build && $(MAKE) -f bsl/CMakeFiles/bsl.hpp.dir/build.make bsl/CMakeFiles/bsl.hpp.dir/bsl.cpp.s
+.PHONY : bsl.cpp.s
 
 # Help Target
 help:
@@ -170,12 +159,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... reflow"
-	@echo "... edit_cache"
 	@echo "... bsl.hpp"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... edit_cache"
+	@echo "... bsl.o"
+	@echo "... bsl.i"
+	@echo "... bsl.s"
 .PHONY : help
 
 
@@ -187,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ed/github/Reflow/Firmware/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
