@@ -60,3 +60,9 @@ fp-info-cache
 *.exe
 *.out
 *.app
+
+
+#   cmake stuff
+
+out/build
+out/[bB][uU][iI][lL][dD]

@@ -1,0 +1,3 @@
+
+cd  out/build
+./reflow
