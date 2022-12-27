@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdbool.h": "c",
+        "cstddef": "c",
+        "limits": "c",
+        "memory": "c",
+        "system_error": "c",
+        "xiosbase": "c",
+        "xlocale": "c",
+        "xstring": "c",
+        "xutility": "c"
+    }
+}
