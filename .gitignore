@@ -37,6 +37,11 @@ fp-info-cache
 *.o
 *.obj
 
+# Visual Code
+
+.vscode
+
+
 # Precompiled Headers
 *.gch
 *.pch
