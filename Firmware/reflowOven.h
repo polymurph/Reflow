@@ -12,6 +12,8 @@ typedef void(*reflO_disableThreadCB_t)(void);
  */
 void reflO_init(float P, float I);
 
+float reflO_getTemperature();
+
 void reflO_turnOnHeater();
 
 void reflO_turnOffHeater();
@@ -19,6 +21,8 @@ void reflO_turnOffHeater();
 void reflO_turnOnVentilator();
 
 void reflO_turnOffVentilator();
+
+void reflO_emergencyStop();
 
 void reflO_registerThreadCallbacks(
     reflO_enableThreadCB_t eth,
