@@ -10,7 +10,6 @@ typedef enum {
 /*!< States*/
 typedef enum {
     state_idle,  /*!< Idle*/
-    state_rampTempToSoak,
     state_soak,
     state_rampTempToReflow
 } reflOC_State_t;
