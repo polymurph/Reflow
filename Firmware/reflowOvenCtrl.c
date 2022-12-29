@@ -9,11 +9,11 @@ void reflOC_initOvenControl()
 
 }
 
-void reflOC_processEvent(reflO_Event_t e)
+void reflOC_processEvent(reflOC_Event_t e)
 {
     switch(currentState) {
         case state_idle:
-            if(e == )
+            if(e == 1)
             // actions
             // state transition
             break;

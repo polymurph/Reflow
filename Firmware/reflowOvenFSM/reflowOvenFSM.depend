@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1672340144 source:c:\users\edwin\documents\19_git\reflow\firmware\reflowovenfsm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"FSM_example.h"
+
+1672338790 c:\users\edwin\documents\19_git\reflow\firmware\reflowovenfsm\fsm_example.h
+	<stdint.h>
+	<stdbool.h>
+

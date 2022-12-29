@@ -1,5 +1,6 @@
 #include "reflowOven.h"
 #include "reflowOvenCtrl.h"
+#include <stdint.h>
 
 typedef void(*tempCtrl_t)();
 
@@ -31,7 +32,7 @@ void reflO_tempControlThread()
     float temp = reflO_getTemperature();
 
     if(state == state_soak) {
-        // only start temperature controller when temperature 
+        // only start temperature controller when temperature
         if(_soakSetTemp > temp - _relativeTempThreshold) {
             _relativeTempThreshold -= _temperatreWindow;
             _systemStatus |= TEMP_CTRL_ON;
