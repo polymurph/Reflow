@@ -11,10 +11,8 @@ typedef enum {
     ev_abort
 } oven_event_t;
 
-void ovenFSM_init();
+void ovenCtrl_init();
 
-void ovenFSM_handleEvent(oven_event_t event);
-
-
+void ovenCtrl_handleEvent(oven_event_t event);
 
 #endif // OVENCTRL_H_

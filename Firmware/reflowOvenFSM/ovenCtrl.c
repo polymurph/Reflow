@@ -1,5 +1,8 @@
-#include "ovenCtrl.h
+#include "ovenCtrl.h"
 #include "oven.h"
+
+#include <stdio.h>
+#include <stdlib.h>
 
 typedef enum {
     st_idle,
@@ -10,13 +13,15 @@ typedef enum {
     st_coolDown
 }state_t;
 
-void ovenFSM_init()
+static state_t currentState = st_idle;
+
+void ovenCtrl_init()
 {
     currentState = st_idle;
     oven_init();
 }
 
-void ovenFSM_handleEvent(oven_event_t event)
+void ovenCtrl_handleEvent(oven_event_t event)
 {
     switch(currentState) {
         case st_idle:
@@ -51,6 +56,9 @@ void ovenFSM_handleEvent(oven_event_t event)
                 printf("Changing to State: st_rampToSoak\n");
                 currentState = st_coolDown;
                 break;
+            } else if (event == ev_soakDone) {
+                printf("Changing to State: st_rampToPeak\n");
+                currentState = st_rampToPeak;
             }
             break;
 
@@ -62,6 +70,9 @@ void ovenFSM_handleEvent(oven_event_t event)
                 printf("Changing to State: st_rampToSoak\n");
                 currentState = st_coolDown;
                 break;
+            } else if (event == ev_peakTempReached) {
+                printf("Changing to State: st_dwell\n");
+                currentState = st_dwell;
             }
             break;
 
@@ -73,14 +84,22 @@ void ovenFSM_handleEvent(oven_event_t event)
                 printf("Changing to State: st_rampToSoak\n");
                 currentState = st_coolDown;
                 break;
+            } else if (event == ev_dwellTimeOver) {
+                printf("Changing to State: st_coolDown\n");
+                currentState = st_coolDown;
             }
             break;
 
         case st_coolDown:
             printf("State: st_coolDown\n");
+            if(event == ev_ovenCooledDown) {
+                printf("Changing to State: st_idle\n");
+                currentState = st_idle;
+            }
             break;
 
         default:
+            printf("Illegal state!\n");
             break;
     }
 }
