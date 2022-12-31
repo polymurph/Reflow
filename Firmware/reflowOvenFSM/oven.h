@@ -3,6 +3,8 @@
 
 void oven_init();
 
+void oven_setReflowParameters();
+
 void oven_turnOnHeater();
 
 void oven_turnOffHeater();

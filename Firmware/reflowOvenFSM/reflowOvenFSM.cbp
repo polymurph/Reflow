@@ -36,18 +36,12 @@
 		</Unit>
 		<Unit filename="oven.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="oven.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="oven.h" />
 		<Unit filename="ovenCtrl.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="ovenCtrl.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="ovenCtrl.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
