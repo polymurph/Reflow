@@ -16,7 +16,7 @@ static state_t currentState = st_idle;
 
 
 // reflow parameters
-static float T_base = 0.0
+static float T_base = 0.0;
 static float t_rampToSoak = 0;
 static float T_soakStart = 0.0;
 static float t_soak = 0;
@@ -37,18 +37,20 @@ static float m_coolDown = 0.0;
 static float reflowTimer = 0.0;
 static float timerPeriode = 0.0;
 
-
-
-
-
-
+void _abort()
+{
+    printf("Process Aborted!\n");
+    oven_turnOffHeater();
+    printf("Changing to State: st_rampToSoak\n");
+    currentState = st_coolDown;
+}
 
 void ovenCtrl_init()
 {
     currentState = st_idle;
     oven_init();
     reflowTimer = 0.0;
-}s
+}
 
 void ovenCtrl_handleEvent(oven_event_t event)
 {
@@ -65,10 +67,7 @@ void ovenCtrl_handleEvent(oven_event_t event)
         case st_rampToSoak:
             printf("State: st_rampToSoak\n");
             if(event == ev_abort) {
-                oven_turnOffHeater();
-                printf("Process Aborted!\n");
-                printf("Changing to State: st_rampToSoak\n");
-                currentState = st_coolDown;
+                _abort();
                 break;
             } else if (event == ev_soakTempReaced) {
                 printf("Changing to State: st_Soak\n");
@@ -80,10 +79,7 @@ void ovenCtrl_handleEvent(oven_event_t event)
         case st_soak:
             printf("State: st_soak\n");
             if(event == ev_abort) {
-                oven_turnOffHeater();
-                printf("Process Aborted!\n");
-                printf("Changing to State: st_rampToSoak\n");
-                currentState = st_coolDown;
+                _abort();
                 break;
             } else if (event == ev_soakDone) {
                 printf("Changing to State: st_rampToPeak\n");
@@ -94,10 +90,7 @@ void ovenCtrl_handleEvent(oven_event_t event)
         case st_rampToPeak:
             printf("State: st_rampToPeak\n");
             if(event == ev_abort) {
-                oven_turnOffHeater();
-                printf("Process Aborted!\n");
-                printf("Changing to State: st_rampToSoak\n");
-                currentState = st_coolDown;
+                _abort();
                 break;
             } else if (event == ev_peakTempReached) {
                 printf("Changing to State: st_dwell\n");
@@ -108,10 +101,7 @@ void ovenCtrl_handleEvent(oven_event_t event)
         case st_dwell:
             printf("State: st_dwell\n");
             if(event == ev_abort) {
-                oven_turnOffHeater();
-                printf("Process Aborted!\n");
-                printf("Changing to State: st_rampToSoak\n");
-                currentState = st_coolDown;
+                _abort();
                 break;
             } else if (event == ev_dwellTimeOver) {
                 printf("Changing to State: st_coolDown\n");
@@ -123,6 +113,7 @@ void ovenCtrl_handleEvent(oven_event_t event)
             printf("State: st_coolDown\n");
             if(event == ev_ovenCooledDown) {
                 printf("Changing to State: st_idle\n");
+                oven_turnOffHeater();
                 currentState = st_idle;
             }
             break;
@@ -172,11 +163,21 @@ float ovenCtrl_getTempSetValue(float T)
             break;
 
         case st_dwell:
-
+            if(reflowTimer > t_dwell) {
+                ovenCtrl_handleEvent(ev_dwellTimeOver);
+                reflowTimer = 0.0;
+                return T_peak;
+            }
+            setTemp = T_peak;
             break;
 
         case st_coolDown:
-
+            if(T < T_base) {
+                ovenCtrl_handleEvent(ev_dwellTimeOver);
+                reflowTimer = 0.0;
+                return T_base;
+            }
+            setTemp = m_coolDown * reflowTimer + T_peak;
             break;
 
         default:
@@ -185,9 +186,22 @@ float ovenCtrl_getTempSetValue(float T)
     // count time
     reflowTimer += timerPeriode;
     return setTemp;
-
 }
 
 
+void ovenCtrl_controllLoop()
+{
+    float T_error;
+    float T_set;
+    float T_measured;
+    float u;
+    // read temp
+    // set set temperature according to ovenCtrl_getTempSetValue()
 
+    // calculate error
+    error = T_set - T_measured;
 
+    // run PI controller
+
+    oven_setDutycycle(u);
+}

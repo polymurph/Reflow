@@ -22,4 +22,6 @@ void ovenCtrl_handleEvent(oven_event_t event);
 // gives a temperature set value for a given time in [s]
 float ovenCtrl_getTempSetValue(float T);
 
+void ovenCtrl_controllLoop();
+
 #endif // OVENCTRL_H_

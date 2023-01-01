@@ -9,4 +9,6 @@ void oven_turnOnHeater();
 
 void oven_turnOffHeater();
 
+void oven_setDutycycle(float dutyCycle);
+
 #endif // OVEN_H_

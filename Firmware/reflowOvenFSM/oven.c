@@ -15,3 +15,8 @@ void oven_turnOffHeater()
 {
     printf("Turning heater off\n");
 }
+
+void oven_setDutycycle(float dutyCycle)
+{
+
+}
