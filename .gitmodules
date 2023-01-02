@@ -1,0 +1,3 @@
+[submodule "Firmware/ked"]
+	path = Firmware/ked
+	url = https://git.keydev.me/kerem/ked
