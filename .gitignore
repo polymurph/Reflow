@@ -71,3 +71,8 @@ fp-info-cache
 
 out/build
 out/[bB][uU][iI][lL][dD]
+
+
+# KED stuff
+
+ked_build/
