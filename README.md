@@ -4,7 +4,10 @@
 
 source: https://devconnected.com/how-to-add-and-update-git-submodules/
 
-### Adding git submodule
+### Adding git submodule¨
+
+-> https://stackoverflow.com/questions/43761594/cmake-and-using-git-submodule-for-dependence-projects
+
 
 ```
 git submodule add <remote_url> <destination_folder>
