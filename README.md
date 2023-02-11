@@ -1,5 +1,21 @@
 # Reflow
 
+## How to Contribute
+
+source: https://www.youtube.com/watch?v=CML6vfKjQss
+
+1. fork the project
+
+2. make a new brachnch in the forked project
+
+3. programm your features
+
+3. one you are done go to your fork on github and hit the "compare & pull request" button
+
+4. describe the feature, adaptation, bugfix or etc.
+
+5. when done with documenting hit the "create pull request" button. 
+
 ## Git Submodules
 
 source: https://devconnected.com/how-to-add-and-update-git-submodules/
