@@ -1,5 +1,0 @@
-CMake tutorial:
-https://www.youtube.com/watch?v=nlKcXPUJGwA&list=PLalVdRk2RC6o5GHu618ARWh0VO0bFlif4&index=1
-
-Submodules and CMake:
-https://cliutils.gitlab.io/modern-cmake/chapters/projects/submodule.html

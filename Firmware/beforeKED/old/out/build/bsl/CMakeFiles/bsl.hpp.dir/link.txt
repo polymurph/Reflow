@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbsl.hpp.a  CMakeFiles/bsl.hpp.dir/bsl.cpp.o
-/usr/bin/ranlib libbsl.hpp.a

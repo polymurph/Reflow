@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbsl.a  CMakeFiles/bsl.dir/bsl.cpp.o
-/usr/bin/ranlib libbsl.a
