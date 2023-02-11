@@ -16,11 +16,15 @@ source: https://www.youtube.com/watch?v=CML6vfKjQss
 
 5. when done with documenting hit the "create pull request" button. 
 
+## README Creation tipps
+
+https://www.youtube.com/watch?v=E6NO0rgFub4
+
 ## Git Submodules
 
 source: https://devconnected.com/how-to-add-and-update-git-submodules/
 
-### Adding git submodule¨
+### Adding git submoduleÂ¨
 
 -> https://stackoverflow.com/questions/43761594/cmake-and-using-git-submodule-for-dependence-projects
 
