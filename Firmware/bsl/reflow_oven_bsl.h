@@ -6,6 +6,7 @@ extern "C" {
 #endif
 
 #include <stdint.h>
+#include "main.h"
 #include "usart.h"
 #include "ascii.h"
 #include "pin.h"

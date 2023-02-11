@@ -1,4 +1,5 @@
 #include "reflow_oven_bsl.h"
+#include "modules.h"
 
 void reflowOvenInitHw(reflowBSL_t *oven)
 {
@@ -18,5 +19,13 @@ void reflowOvenInitHw(reflowBSL_t *oven)
 	setupInit(); // This is the sescond call of System init the assebly start code is calling it before the main.	
 	
 	print_Usart(oven->uartChannel, ASCII_clear); 
+	
+	display_init(oven);
+	door_init(oven);
+	fan_init(oven);
+	heater_init(oven);
+	temperature_init(oven);
+	userIO_init(oven);
+	
 	print_Usart(oven->uartChannel, "Reflow oven init successful\n\r"); 	
 }
