@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
 
 	oven.clockSpeed=8000000; 
 	oven.statusLED=pinB3; 
+	oven.resetPin=pinA0;
 	oven.uartTx=pinA2;
 	oven.uartRx=pinA15;
 	oven.uartChannel=usart2; 
