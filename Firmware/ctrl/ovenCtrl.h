@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
+#include "reflow_oven_bsl.h"
+
 
 typedef enum {
     ev_start,
@@ -15,13 +17,16 @@ typedef enum {
     ev_abort
 } oven_event_t;
 
-void ovenCtrl_init();
+void ovenCtrl_init(reflowBSL_t* bsl);
 
 void ovenCtrl_handleEvent(oven_event_t event);
 
+void ovenCtrl_run();
+
+#ifdef IDEAS
 // gives a temperature set value for a given time in [s]
 float ovenCtrl_getTempSetValue(float T);
 
 void ovenCtrl_controllLoop();
-
+#endif // IDEAS
 #endif // OVENCTRL_H_

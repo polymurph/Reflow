@@ -1,7 +1,6 @@
 #include "ovenCtrl.h"
 #include "oven.h"
-
-
+#include "modules.h"
 
 typedef enum {
     st_idle,
@@ -45,11 +44,16 @@ void _abort()
     currentState = st_coolDown;
 }
 
-void ovenCtrl_init()
+void ovenCtrl_init(reflowBSL_t* bsl)
 {
     currentState = st_idle;
+	// init board suport layer (BSL)
+	reflowOvenInitHw(bsl);
+	// init reflow oven (ui, timer, etc.)
     oven_init();
     reflowTimer = 0.0;
+
+	userIO_doInitStatusBlinki();
 }
 
 void ovenCtrl_handleEvent(oven_event_t event)
@@ -124,6 +128,15 @@ void ovenCtrl_handleEvent(oven_event_t event)
     }
 }
 
+void ovenCtrl_run()
+{
+	while(1) {
+	
+	}
+}
+
+
+#ifdef IDEAS
 
 float ovenCtrl_getTempSetValue(float T)
 {
@@ -205,3 +218,5 @@ void ovenCtrl_controllLoop()
 
     oven_setDutycycle(u);
 }
+#endif // IDEAS
+

@@ -1,5 +1,6 @@
 #include "main.h"
 #include "reflow_oven_bsl.h"
+#include "ovenCtrl.h"
 
 int main(int argc, char *argv[])
 {
@@ -15,8 +16,15 @@ int main(int argc, char *argv[])
 	oven.uartChannel=usart2; 
 	oven.baudRate=115200;
 
-	reflowOvenInitHw(&oven); 
+	// init reflow oven controller
+	ovenCtrl_init(&oven);
+	
+	// run reflow oven  controller
+	ovenCtrl_run();	
 
+	while(1);
+	
+	/*
 	//blinks 10 times to indicate the sicsessfull init if the device
 	for(i = 0 ; i < 2 ; i++) {
 		delayMs(100); 
@@ -29,7 +37,7 @@ int main(int argc, char *argv[])
 		pinToggle(pinB3);
 		delayMs(100); 
 	}
-	
+	*/
 	return 1;
 }
 
