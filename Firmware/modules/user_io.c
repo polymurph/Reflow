@@ -7,8 +7,13 @@ static reflowBSL_t* _bsl = 0;
 uint8_t userIO_init(reflowBSL_t *oven_bsl)
 {
     _bsl = oven_bsl;
+	
 	print_Usart(oven_bsl->uartChannel, "User IO Init -> Started\n\r"); 	
-	print_Usart(oven_bsl->uartChannel, "User IO Init -> done\n\r"); 	
+	
+	// init Status LED
+	pinConfig(_bsl->statusLED, output, pushPull, def_res, def_speed);
+
+	print_Usart(oven_bsl->uartChannel, "User IO Init -> done\n\r"); 
 	return 1;
 }
 

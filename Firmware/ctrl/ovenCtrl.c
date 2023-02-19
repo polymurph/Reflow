@@ -1,6 +1,7 @@
 #include "ovenCtrl.h"
 #include "oven.h"
 #include "modules.h"
+#include "deviceSetup.h"
 
 typedef enum {
     st_idle,
@@ -50,9 +51,13 @@ void ovenCtrl_init(reflowBSL_t* bsl)
 	// init board suport layer (BSL)
 	reflowOvenInitHw(bsl);
 	// init reflow oven (ui, timer, etc.)
-    oven_init();
+    
+    //oven_init();
     reflowTimer = 0.0;
 
+    setupInit();
+
+    // init done!indicate by toggling LED
 	userIO_doInitStatusBlinki();
 }
 

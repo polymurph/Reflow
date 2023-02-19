@@ -2,6 +2,10 @@
 #include "reflow_oven_bsl.h"
 #include "ovenCtrl.h"
 
+#ifdef TO_BE_DISCUSSED
+#include "bsl_config.h"
+#endif
+
 int main(int argc, char *argv[])
 {
 	uint8_t i = 0;
