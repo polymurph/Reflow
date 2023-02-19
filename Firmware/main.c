@@ -5,47 +5,27 @@
 int main(int argc, char *argv[])
 {
 	uint8_t i = 0;
-	
-	reflowBSL_t oven; 
 
-	oven.clockSpeed=8000000; 
-	oven.statusLED=pinB3; 
-	oven.resetPin=pinA0;
-	oven.uartTx=pinA2;
-	oven.uartRx=pinA15;
-	oven.uartChannel=usart2; 
-	oven.baudRate=115200;
+	// creating ovenBSL object
+	reflowBSL_t ovenBSL; 
+
+	// init of ovenBSL object
+	ovenBSL.clockSpeed=8000000; 
+	ovenBSL.statusLED=pinB3; 
+	ovenBSL.resetPin=pinA0;
+	ovenBSL.uartTx=pinA2;
+	ovenBSL.uartRx=pinA15;
+	ovenBSL.uartChannel=usart2; 
+	ovenBSL.baudRate=115200;
 
 	// init reflow oven controller
-	ovenCtrl_init(&oven);
+	ovenCtrl_init(&ovenBSL);
 	
 	// run reflow oven  controller
 	ovenCtrl_run();	
 
 	while(1);
-	
-	/*
-	//blinks 10 times to indicate the sicsessfull init if the device
-	for(i = 0 ; i < 2 ; i++) {
-		delayMs(100); 
-		pinToggle(pinB3);
-		delayMs(100); 
-	}
-	while(1)
-	{
-		delayMs(100); 
-		pinToggle(pinB3);
-		delayMs(100); 
-	}
-	*/
+
 	return 1;
 }
-
-/*	
-	
-	setupInit(); // This is the sescond call of System init the assebly start code is calling it before the main.	
-*/
-	
-	
-	
 
