@@ -8,7 +8,7 @@ void reflowOvenInitHw(reflowBSL_t *oven_bsl)
 	// Reset pin
 	pinConfig(oven_bsl->resetPin, input, def_stage, pullDown, def_speed);
 
-	// init uart	
+	// init uart
 	usartInit(	oven_bsl->uartChannel, 
 				oven_bsl->uartTx, 
 				oven_bsl->uartRx, 
