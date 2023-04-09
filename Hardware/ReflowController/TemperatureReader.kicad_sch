@@ -1,0 +1,31 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 7e1e5041-50f6-4255-9b35-4476ca25132c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "MOSI" (shape input) (at 104.14 92.71 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 22b634d5-145b-4cc9-abd0-6480aacc86e8)
+  )
+  (hierarchical_label "SCLK" (shape input) (at 104.14 97.79 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 623f0856-3b81-4556-bb93-28f3eabe7714)
+  )
+  (hierarchical_label "MISO" (shape output) (at 104.14 95.25 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d2a8ab57-9cd3-4995-aaa1-66ad886b604a)
+  )
+  (hierarchical_label "DGND" (shape passive) (at 116.84 106.68 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e97a4271-c386-4423-a7e3-0e95dd8fe872)
+  )
+  (hierarchical_label "+5VD" (shape input) (at 116.84 102.87 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ecaa590d-222a-4784-9bd2-b4d91591e5f7)
+  )
+)
