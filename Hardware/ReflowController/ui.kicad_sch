@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 93c90dd1-ce87-4407-aef4-43bc221a0037)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "IO expander PI4IOE5V6416LEX" (at 133.35 102.87 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a888719a-9cca-45b5-9086-90c622776d33)
+  )
+)

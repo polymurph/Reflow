@@ -1,0 +1,28 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a6fa7e3f-54b2-4cb1-b649-878e23089591)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Relais driver\nSZNUD3124DMT1G\n" (at 137.16 101.6 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 81e76ed4-bbef-44cc-b664-1dfe1dda5c6d)
+  )
+  (text "High Side Driver \nVNQ5160K" (at 134.62 87.63 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e7aafaed-5152-4c47-8e27-043377269a1f)
+  )
+
+  (hierarchical_label "PGND" (shape passive) (at 69.85 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 94feec32-3454-4e71-9a86-2537c66424e2)
+  )
+  (hierarchical_label "+24V" (shape input) (at 69.85 64.77 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f9030611-c290-41c8-a05e-e762317a0573)
+  )
+)
