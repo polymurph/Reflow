@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Reflow Oven Control")
+    (rev "0.1")
+  )
+
   (lib_symbols
     (symbol "Sensor_Temperature:MAX31865xAP" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -11.43 19.05 0)
