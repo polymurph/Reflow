@@ -72,6 +72,8 @@ fp-info-cache
 out/build
 out/[bB][uU][iI][lL][dD]
 
+# Kicad stuff
+*.zip
 
 # KED stuff
 
