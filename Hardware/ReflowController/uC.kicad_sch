@@ -927,7 +927,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 39.37 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04d7a996-4615-4d74-ae03-de7bb9d49502)
-    (property "Reference" "NT3" (at 39.37 87.63 0)
+    (property "Reference" "NT2" (at 39.37 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NetTie_2" (at 39.37 90.17 0)
@@ -944,7 +944,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7f3c5223-ce8d-4c24-a6f4-4e6402f9b436"
-          (reference "NT3") (unit 1)
+          (reference "NT2") (unit 1)
         )
       )
     )
@@ -1031,7 +1031,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 39.37 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dad7f69-295d-4e10-8b49-ba3151749d78)
-    (property "Reference" "NT2" (at 39.37 82.55 0)
+    (property "Reference" "NT1" (at 39.37 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NetTie_2" (at 39.37 85.09 0)
@@ -1048,7 +1048,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7f3c5223-ce8d-4c24-a6f4-4e6402f9b436"
-          (reference "NT2") (unit 1)
+          (reference "NT1") (unit 1)
         )
       )
     )
@@ -1213,7 +1213,7 @@
   (symbol (lib_id "Connector:Conn_01x15_Female") (at 44.45 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c405e99-209e-4b35-8ab2-6a690283f96c)
-    (property "Reference" "J1" (at 39.37 27.94 0)
+    (property "Reference" "J13" (at 39.37 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x15_Female" (at 39.37 30.48 0)
@@ -1243,7 +1243,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7f3c5223-ce8d-4c24-a6f4-4e6402f9b436"
-          (reference "J1") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -1434,7 +1434,7 @@
   (symbol (lib_id "Connector:Conn_01x15_Female") (at 96.52 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9a6c309-48ef-488b-bdab-089707e0b10c)
-    (property "Reference" "J2" (at 91.44 27.94 0)
+    (property "Reference" "J14" (at 91.44 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x15_Female" (at 91.44 30.48 0)
@@ -1464,7 +1464,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7f3c5223-ce8d-4c24-a6f4-4e6402f9b436"
-          (reference "J2") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -1655,7 +1655,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 39.37 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e79ec6a6-8eb2-4386-8997-697bb753554c)
-    (property "Reference" "NT1" (at 39.37 92.71 0)
+    (property "Reference" "NT3" (at 39.37 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NetTie_2" (at 39.37 95.25 0)
@@ -1672,7 +1672,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7f3c5223-ce8d-4c24-a6f4-4e6402f9b436"
-          (reference "NT1") (unit 1)
+          (reference "NT3") (unit 1)
         )
       )
     )

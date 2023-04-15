@@ -964,7 +964,7 @@
   (symbol (lib_id "Device:R") (at 48.26 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0570ccbb-a40d-4dd2-9418-d7e7f65cf189)
-    (property "Reference" "R5" (at 52.07 58.42 90)
+    (property "Reference" "R27" (at 52.07 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 48.26 59.69 90)
@@ -993,7 +993,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R5") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -1002,7 +1002,7 @@
   (symbol (lib_id "190_active_high_side_switches:VNQ5160K") (at 76.2 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 115d74d4-d152-4e62-933d-d28cbca4be03)
-    (property "Reference" "U6" (at 62.23 36.83 0)
+    (property "Reference" "U8" (at 62.23 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VNQ5160K-E" (at 76.2 63.5 90)
@@ -1054,7 +1054,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "U6") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -1063,7 +1063,7 @@
   (symbol (lib_id "Device:R") (at 57.15 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1198a51c-67ec-49a2-8e99-6c346918ca48)
-    (property "Reference" "R15" (at 54.61 35.56 90)
+    (property "Reference" "R32" (at 54.61 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 57.15 35.56 90)
@@ -1092,7 +1092,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R15") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -1101,7 +1101,7 @@
   (symbol (lib_id "Device:R") (at 48.26 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1993f755-5f7b-4e7e-ac08-0060735faa81)
-    (property "Reference" "R2" (at 52.07 48.26 90)
+    (property "Reference" "R24" (at 52.07 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 48.26 49.53 90)
@@ -1130,7 +1130,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R2") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -1139,7 +1139,7 @@
   (symbol (lib_id "Device:R") (at 48.26 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 235e712e-41af-41d6-96ef-9d2d73afa87d)
-    (property "Reference" "R4" (at 52.07 54.61 90)
+    (property "Reference" "R26" (at 52.07 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 48.26 55.88 90)
@@ -1168,7 +1168,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R4") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -1177,7 +1177,7 @@
   (symbol (lib_id "Device:D") (at 81.28 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32e793c6-6249-40cd-b431-c9268e199e56)
-    (property "Reference" "D1" (at 83.82 85.725 90)
+    (property "Reference" "D7" (at 83.82 85.725 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 83.82 88.265 90)
@@ -1194,7 +1194,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "D1") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -1203,7 +1203,7 @@
   (symbol (lib_id "Device:R") (at 48.26 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43ba1c68-bfae-4e01-9b86-5bb4b161ae75)
-    (property "Reference" "R1" (at 52.07 45.72 90)
+    (property "Reference" "R23" (at 52.07 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 48.26 46.99 90)
@@ -1232,7 +1232,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R1") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1241,7 +1241,7 @@
   (symbol (lib_id "Device:R") (at 76.2 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 448a5980-aa66-4362-8cb5-04206b83aceb)
-    (property "Reference" "R14" (at 71.12 85.09 0)
+    (property "Reference" "R33" (at 71.12 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 72.39 87.63 0)
@@ -1258,7 +1258,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R14") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -1267,7 +1267,7 @@
   (symbol (lib_id "Device:R") (at 105.41 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a7f0915-4c10-4867-bc1b-1844a1fd38a8)
-    (property "Reference" "R11" (at 102.87 35.56 90)
+    (property "Reference" "R35" (at 102.87 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 105.41 35.56 90)
@@ -1296,7 +1296,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R11") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -1305,7 +1305,7 @@
   (symbol (lib_id "Device:R") (at 48.26 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4be4769b-e280-4777-b027-0ef6b4320d35)
-    (property "Reference" "R7" (at 52.07 64.77 90)
+    (property "Reference" "R29" (at 52.07 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 48.26 66.04 90)
@@ -1334,7 +1334,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R7") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -1343,7 +1343,7 @@
   (symbol (lib_id "Device:R") (at 110.49 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56577911-8e06-42a7-ad96-b3752fe3ec18)
-    (property "Reference" "R12" (at 107.95 35.56 90)
+    (property "Reference" "R36" (at 107.95 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 110.49 35.56 90)
@@ -1372,7 +1372,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R12") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -1381,7 +1381,7 @@
   (symbol (lib_id "180_active_driver_relay:SZNUD3124DMT1G") (at 74.93 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72087778-979f-4c31-a759-b66c856b8075)
-    (property "Reference" "U5" (at 74.93 116.84 0)
+    (property "Reference" "U7" (at 74.93 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SZNUD3124DMT1G" (at 74.93 119.38 0)
@@ -1414,7 +1414,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "U5") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -1423,7 +1423,7 @@
   (symbol (lib_id "Device:R") (at 100.33 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c3a5f9f-31a4-45d0-a813-7427d99b3803)
-    (property "Reference" "R10" (at 97.79 35.56 90)
+    (property "Reference" "R34" (at 97.79 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 100.33 35.56 90)
@@ -1452,7 +1452,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R10") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -1461,7 +1461,7 @@
   (symbol (lib_id "Device:R") (at 115.57 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abf55942-3213-48c6-ac07-f082951568f5)
-    (property "Reference" "R13" (at 113.03 35.56 90)
+    (property "Reference" "R37" (at 113.03 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 115.57 35.56 90)
@@ -1490,7 +1490,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R13") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -1499,7 +1499,7 @@
   (symbol (lib_id "Device:R") (at 48.26 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4ceb46b-7b95-4c67-9a15-e1b58376c34f)
-    (property "Reference" "R9" (at 52.07 73.66 90)
+    (property "Reference" "R31" (at 52.07 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 48.26 74.93 90)
@@ -1528,7 +1528,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R9") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -1537,7 +1537,7 @@
   (symbol (lib_id "Device:R") (at 48.26 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4db5a93-da0f-4ab6-90d2-ae51a5ad90a0)
-    (property "Reference" "R6" (at 52.07 60.96 90)
+    (property "Reference" "R28" (at 52.07 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 48.26 62.23 90)
@@ -1566,7 +1566,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R6") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -1575,7 +1575,7 @@
   (symbol (lib_id "Device:R") (at 48.26 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2de2260-5d01-48bd-a062-8c154b57c9e8)
-    (property "Reference" "R3" (at 52.07 52.07 90)
+    (property "Reference" "R25" (at 52.07 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 48.26 53.34 90)
@@ -1604,7 +1604,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R3") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1613,7 +1613,7 @@
   (symbol (lib_id "Device:R") (at 48.26 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcc8ce46-622d-47be-a4ab-9320602848b4)
-    (property "Reference" "R8" (at 52.07 67.31 90)
+    (property "Reference" "R30" (at 52.07 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 48.26 68.58 90)
@@ -1642,7 +1642,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/7eb2c85f-b182-4872-bcd3-2e9396dd27ee"
-          (reference "R8") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )

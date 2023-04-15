@@ -197,7 +197,7 @@
   (symbol (lib_id "Regulator_Switching:TSR_1-2450") (at 132.08 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1865c856-13d5-4c2c-9ed1-3822016b7b98)
-    (property "Reference" "U1" (at 132.08 19.05 0)
+    (property "Reference" "U2" (at 132.08 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TSR_1-2450" (at 132.08 21.59 0)
@@ -215,7 +215,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/f93d5910-f900-4b81-b729-10d58386d359"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -224,7 +224,7 @@
   (symbol (lib_id "Regulator_Linear:LD1117S33TR_SOT223") (at 132.08 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfab9c53-548e-439c-8c56-704e96ea3f65)
-    (property "Reference" "U2" (at 132.08 49.53 0)
+    (property "Reference" "U3" (at 132.08 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LD1117S33TR_SOT223" (at 132.08 52.07 0)
@@ -242,7 +242,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/f93d5910-f900-4b81-b729-10d58386d359"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )

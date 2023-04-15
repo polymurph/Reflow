@@ -1453,7 +1453,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 267.97 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09b58291-eb20-48c7-ad2f-bd5c12f0e663)
-    (property "Reference" "J9" (at 269.24 113.665 0)
+    (property "Reference" "J11" (at 269.24 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2060-1452" (at 269.24 116.205 0)
@@ -1482,7 +1482,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J9") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1516,7 +1516,7 @@
   (symbol (lib_id "Connector:RJ45") (at 62.992 181.356 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1367b192-c32c-48f0-88d1-0cce589c71c6)
-    (property "Reference" "J12" (at 62.992 164.846 0)
+    (property "Reference" "J3" (at 62.992 164.846 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RJ45_Display" (at 62.992 167.386 0)
@@ -1551,7 +1551,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J12") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1560,7 +1560,7 @@
   (symbol (lib_id "power:GNDPWR") (at 266.7 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27f37b9b-826c-4a06-8508-9d5377b59f7c)
-    (property "Reference" "#PWR09" (at 266.7 46.99 0)
+    (property "Reference" "#PWR08" (at 266.7 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 266.573 46.99 0)
@@ -1576,7 +1576,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1585,7 +1585,7 @@
   (symbol (lib_id "Device:R") (at 123.19 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 357d7b63-5e9f-482e-8be6-200f3d85bd7a)
-    (property "Reference" "R19" (at 123.19 114.3 90)
+    (property "Reference" "R1" (at 123.19 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 123.19 116.84 90)
@@ -1602,7 +1602,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "R19") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1611,7 +1611,7 @@
   (symbol (lib_id "power:+24V") (at 224.79 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 416550f8-46d1-4bcd-87e1-71dc29448d9e)
-    (property "Reference" "#PWR06" (at 224.79 102.87 0)
+    (property "Reference" "#PWR07" (at 224.79 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 224.79 95.25 0)
@@ -1627,7 +1627,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1636,7 +1636,7 @@
   (symbol (lib_id "power:GND") (at 71.12 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 459ecad6-a6d7-4f87-9754-d1c8e87618dd)
-    (property "Reference" "#PWR02" (at 71.12 134.62 0)
+    (property "Reference" "#PWR03" (at 71.12 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 133.35 0)
@@ -1652,7 +1652,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1661,7 +1661,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 267.97 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a82329e-97e9-4aa6-bd64-0e25ec413d04)
-    (property "Reference" "J7" (at 269.24 80.645 0)
+    (property "Reference" "J9" (at 269.24 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2060-1452" (at 269.24 83.185 0)
@@ -1690,7 +1690,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J7") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -1699,7 +1699,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 19.05 110.49 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f307152-1f00-4c31-823e-3a6e20089bda)
-    (property "Reference" "J11" (at 22.86 105.41 0)
+    (property "Reference" "J1" (at 22.86 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2060-1452" (at 19.05 107.95 0)
@@ -1728,7 +1728,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J11") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1762,7 +1762,7 @@
   (symbol (lib_id "Relay_SolidState:MOC3021M") (at 106.68 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 593565a8-5f5b-4089-ba4c-b9846becdb2c)
-    (property "Reference" "U7" (at 106.68 114.3 0)
+    (property "Reference" "U1" (at 106.68 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MOC3021M" (at 106.68 116.84 0)
@@ -1783,7 +1783,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "U7") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1792,7 +1792,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 268.605 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a5d9ecf-b745-4c9f-9cbd-1b8ccec63ecc)
-    (property "Reference" "J10" (at 269.875 120.65 0)
+    (property "Reference" "J12" (at 269.875 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2060-1452" (at 269.875 123.19 0)
@@ -1821,7 +1821,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J10") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -1830,7 +1830,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 267.97 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76322fa8-bc93-4bbb-90d7-99ef76d91e38)
-    (property "Reference" "J3" (at 269.24 53.975 0)
+    (property "Reference" "J5" (at 269.24 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2060-1452" (at 269.24 56.515 0)
@@ -1859,7 +1859,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -1868,7 +1868,7 @@
   (symbol (lib_id "power:+24V") (at 224.79 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7cddee20-edaf-45d9-aad7-4ff320e3d106)
-    (property "Reference" "#PWR03" (at 224.79 39.37 0)
+    (property "Reference" "#PWR06" (at 224.79 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 224.79 31.75 0)
@@ -1884,7 +1884,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1893,7 +1893,7 @@
   (symbol (lib_id "power:GNDPWR") (at 71.12 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a1ffd40-773a-4a8e-9f50-00416bf292da)
-    (property "Reference" "#PWR08" (at 71.12 118.11 0)
+    (property "Reference" "#PWR02" (at 71.12 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 70.993 118.11 0)
@@ -1909,7 +1909,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1918,7 +1918,7 @@
   (symbol (lib_id "Connector:RJ45") (at 38.227 181.991 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 919b5aba-ab97-4eee-b29a-2c262cb82b0e)
-    (property "Reference" "J13" (at 38.227 164.846 0)
+    (property "Reference" "J2" (at 38.227 164.846 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RJ45_Keypad" (at 38.227 167.386 0)
@@ -1953,7 +1953,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J13") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1962,7 +1962,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 267.97 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9408e655-3c1d-4af7-a76d-058262c7e60f)
-    (property "Reference" "J5" (at 269.24 66.675 0)
+    (property "Reference" "J7" (at 269.24 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2060-1452" (at 269.24 69.215 0)
@@ -1991,7 +1991,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J5") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -2000,7 +2000,7 @@
   (symbol (lib_id "power:GNDPWR") (at 266.7 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f627d5e-6cf6-4647-bda7-32c6a82626da)
-    (property "Reference" "#PWR07" (at 266.7 109.855 0)
+    (property "Reference" "#PWR09" (at 266.7 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 266.7 108.585 0)
@@ -2016,7 +2016,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2025,7 +2025,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 267.97 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a39de0d4-18ca-45d1-918e-403e01d50b94)
-    (property "Reference" "J6" (at 269.24 73.025 0)
+    (property "Reference" "J8" (at 269.24 73.025 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2060-1452" (at 269.24 75.565 0)
@@ -2054,7 +2054,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J6") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -2088,7 +2088,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 267.97 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfec76b0-b616-403a-abbc-088e444935d8)
-    (property "Reference" "J4" (at 269.24 60.325 0)
+    (property "Reference" "J6" (at 269.24 60.325 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2060-1452" (at 269.24 62.865 0)
@@ -2117,7 +2117,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J4") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -2178,7 +2178,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 267.97 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f07b805e-c734-4cb9-99a7-23379bb937db)
-    (property "Reference" "J8" (at 269.24 86.995 0)
+    (property "Reference" "J10" (at 269.24 86.995 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2060-1452" (at 269.24 89.535 0)
@@ -2207,7 +2207,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J8") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -2216,7 +2216,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Socket") (at 182.88 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f52b514c-978d-4f62-9578-736a488aef26)
-    (property "Reference" "J14" (at 177.8 40.64 0)
+    (property "Reference" "J4" (at 177.8 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03_Socket" (at 177.8 43.18 0)
@@ -2234,7 +2234,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c"
-          (reference "J14") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )

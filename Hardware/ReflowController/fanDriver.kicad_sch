@@ -864,7 +864,7 @@
   (symbol (lib_id "350_power_driver_motor_dc:TB67H400AFNG,EL") (at 104.14 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11cfa7f8-a824-45d2-80d8-fb707759e17e)
-    (property "Reference" "U3" (at 91.44 66.04 0)
+    (property "Reference" "U5" (at 91.44 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TB67H400AFNG" (at 86.36 68.58 0)
@@ -939,7 +939,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -948,7 +948,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 76.2 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ec1b74d-fccc-44b8-a7e6-b271fbdb9640)
-    (property "Reference" "C6" (at 74.93 147.32 0)
+    (property "Reference" "C7" (at 74.93 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 73.66 149.86 0)
@@ -977,7 +977,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -986,7 +986,7 @@
   (symbol (lib_id "Device:C") (at 104.14 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f9aee1e-406e-4d4c-8385-fcfb87573698)
-    (property "Reference" "C2" (at 99.06 157.48 0)
+    (property "Reference" "C9" (at 99.06 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 96.52 160.02 0)
@@ -1015,7 +1015,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C2") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1056,7 +1056,7 @@
           (reference "R5") (unit 1)
         )
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "R20") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1065,7 +1065,7 @@
   (symbol (lib_id "Device:C") (at 71.12 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bca9ad3-c33c-4a80-9634-45356145c305)
-    (property "Reference" "C3" (at 67.31 77.47 0)
+    (property "Reference" "C6" (at 67.31 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "270pF" (at 64.77 82.55 0)
@@ -1094,7 +1094,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C3") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1103,7 +1103,7 @@
   (symbol (lib_id "Device:R") (at 119.38 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53349303-8181-4ecc-b296-10fa2fe90953)
-    (property "Reference" "R18" (at 116.84 59.69 0)
+    (property "Reference" "R8" (at 116.84 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.22R" (at 116.84 63.5 90)
@@ -1132,7 +1132,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "R18") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1141,7 +1141,7 @@
   (symbol (lib_id "Device:R") (at 71.12 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e56b079-8eb5-4e62-b4d7-2bd8033161b0)
-    (property "Reference" "R16" (at 73.66 69.85 90)
+    (property "Reference" "R7" (at 73.66 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1K" (at 71.12 69.85 90)
@@ -1170,7 +1170,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "R16") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1179,7 +1179,7 @@
   (symbol (lib_id "Device:R") (at 123.19 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8aaaa6a5-4dee-40e9-9656-5c3e9357b36b)
-    (property "Reference" "R17" (at 125.73 59.69 0)
+    (property "Reference" "R9" (at 125.73 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.22R" (at 125.73 63.5 90)
@@ -1208,7 +1208,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "R17") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1217,7 +1217,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 68.58 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a55cb0d0-0bce-48e0-ba49-1ed6b09c469d)
-    (property "Reference" "C1" (at 67.31 147.32 0)
+    (property "Reference" "C5" (at 67.31 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 66.04 149.86 0)
@@ -1246,7 +1246,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C1") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1287,7 +1287,7 @@
           (reference "R5") (unit 1)
         )
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "R21") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1296,7 +1296,7 @@
   (symbol (lib_id "Device:C") (at 60.96 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfe36273-e6cf-4c15-8746-e187884c44fa)
-    (property "Reference" "C5" (at 59.69 147.32 0)
+    (property "Reference" "C4" (at 59.69 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 58.42 149.86 0)
@@ -1325,7 +1325,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C5") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1334,7 +1334,7 @@
   (symbol (lib_id "Device:C") (at 90.17 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f29d66f9-e105-47ac-a4b0-47b54bc46b9e)
-    (property "Reference" "C4" (at 90.17 116.84 0)
+    (property "Reference" "C8" (at 90.17 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 90.17 121.92 0)
@@ -1363,7 +1363,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C4") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
