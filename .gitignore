@@ -78,10 +78,3 @@ out/[bB][uU][iI][lL][dD]
 # KED stuff
 
 ked_build/
-
-Hardware/ReflowController/IO.kicad_sch
-Hardware/ReflowController/fanDriver.kicad_sch
-Hardware/ReflowController/ReflowController.kicad_pcb
-Hardware/ReflowController/ReflowController.kicad_sch
-Hardware/ReflowController/TemperatureReader.kicad_sch
-Hardware/ReflowController/uC.kicad_sch
