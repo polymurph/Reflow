@@ -702,7 +702,7 @@
   (symbol (lib_id "Sensor_Temperature:MAX31865xAP") (at 116.84 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 124da0ea-aad4-4266-9bf0-37ad0d3c6355)
-    (property "Reference" "U4" (at 121.3359 73.66 0)
+    (property "Reference" "U401" (at 121.3359 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MAX31865xAP" (at 121.3359 76.2 0)
@@ -737,7 +737,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "U4") (unit 1)
+          (reference "U401") (unit 1)
         )
       )
     )
@@ -746,7 +746,7 @@
   (symbol (lib_id "Device:C") (at 154.94 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17ade31f-7b0c-49d6-b225-ddeba6f5013b)
-    (property "Reference" "C3" (at 158.75 104.775 0)
+    (property "Reference" "C403" (at 158.75 104.775 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10n" (at 158.75 107.315 0)
@@ -778,7 +778,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "C3") (unit 1)
+          (reference "C403") (unit 1)
         )
       )
     )
@@ -787,7 +787,7 @@
   (symbol (lib_id "Device:D_Zener") (at 195.58 120.65 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c21d9a7-1c3e-453c-92e6-2eb180c550f4)
-    (property "Reference" "D2" (at 198.12 120.015 90)
+    (property "Reference" "D402" (at 198.12 120.015 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMLVT3V3" (at 198.12 122.555 90)
@@ -816,7 +816,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "D2") (unit 1)
+          (reference "D402") (unit 1)
         )
       )
     )
@@ -825,7 +825,7 @@
   (symbol (lib_id "Device:R") (at 144.78 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f97245f-cf40-45b1-a9dd-0e5e1c3d8344)
-    (property "Reference" "R3" (at 147.32 84.455 0)
+    (property "Reference" "R402" (at 147.32 84.455 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "402" (at 147.32 86.995 0)
@@ -863,7 +863,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "R3") (unit 1)
+          (reference "R402") (unit 1)
         )
       )
     )
@@ -904,7 +904,7 @@
           (reference "R24") (unit 1)
         )
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "R2") (unit 1)
+          (reference "R403") (unit 1)
         )
       )
     )
@@ -945,7 +945,7 @@
           (reference "C4") (unit 1)
         )
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "C1") (unit 1)
+          (reference "C401") (unit 1)
         )
       )
     )
@@ -954,13 +954,13 @@
   (symbol (lib_id "Device:NetTie_2") (at 119.38 57.15 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7966f479-4591-4289-9965-4cae5195499a)
-    (property "Reference" "NT32" (at 120.65 56.515 90)
+    (property "Reference" "NT401" (at 120.65 56.515 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "NetTie_2" (at 120.65 59.055 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "" (at 119.38 57.15 0)
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (at 119.38 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 119.38 57.15 0)
@@ -971,7 +971,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "NT32") (unit 1)
+          (reference "NT401") (unit 1)
         )
       )
     )
@@ -1012,7 +1012,7 @@
           (reference "R24") (unit 1)
         )
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "R1") (unit 1)
+          (reference "R401") (unit 1)
         )
       )
     )
@@ -1021,7 +1021,7 @@
   (symbol (lib_id "Device:D_Zener") (at 180.34 120.65 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af37df5c-f47e-407e-9fc6-e3eaca0e2cd8)
-    (property "Reference" "D1" (at 182.88 120.015 90)
+    (property "Reference" "D401" (at 182.88 120.015 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMLVT3V3" (at 182.88 122.555 90)
@@ -1050,7 +1050,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "D1") (unit 1)
+          (reference "D401") (unit 1)
         )
       )
     )
@@ -1059,13 +1059,13 @@
   (symbol (lib_id "Device:NetTie_2") (at 119.38 122.682 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1974687-9c16-412c-8ca9-897611ff6425)
-    (property "Reference" "NT33" (at 120.65 122.047 90)
+    (property "Reference" "NT402" (at 120.65 122.047 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "NetTie_2" (at 120.65 124.587 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "" (at 119.38 122.682 0)
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (at 119.38 122.682 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 119.38 122.682 0)
@@ -1076,7 +1076,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "NT33") (unit 1)
+          (reference "NT402") (unit 1)
         )
       )
     )
@@ -1117,7 +1117,7 @@
           (reference "C4") (unit 1)
         )
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "C2") (unit 1)
+          (reference "C402") (unit 1)
         )
       )
     )
@@ -1126,7 +1126,7 @@
   (symbol (lib_id "Device:D_Zener") (at 210.82 120.65 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6c97bec-93d1-4c8f-b66e-30fc601da6f2)
-    (property "Reference" "D3" (at 213.36 120.015 90)
+    (property "Reference" "D403" (at 213.36 120.015 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMLVT3V3" (at 213.36 122.555 90)
@@ -1155,7 +1155,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/cedd135a-27b6-4ce6-9f5e-bdcd93291ccf"
-          (reference "D3") (unit 1)
+          (reference "D403") (unit 1)
         )
       )
     )

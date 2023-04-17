@@ -736,12 +736,12 @@
     (fill (type none))
     (uuid 60585591-6e86-4ae5-b03f-6108ec9ae315)
   )
-  (rectangle (start 80.645 122.555) (end 87.63 141.605)
+  (rectangle (start 77.47 122.555) (end 87.63 141.605)
     (stroke (width 0) (type dot))
     (fill (type none))
     (uuid d52b4101-f817-4643-a7f7-338b7b02bf45)
   )
-  (rectangle (start 157.48 74.93) (end 171.45 86.36)
+  (rectangle (start 155.575 73.025) (end 173.355 86.36)
     (stroke (width 0) (type dot))
     (fill (type none))
     (uuid e119be33-3028-4ae6-9694-6444cd900a4d)
@@ -761,7 +761,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3d56af17-ad68-4290-bbff-ece42e7b6864)
   )
-  (text "[3]" (at 77.47 121.92 0)
+  (text "[3]" (at 74.295 121.92 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5892dd0c-9555-49b4-a69e-ead1c81fd015)
   )
@@ -770,7 +770,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5b46cb8c-b5fe-4cda-a6d0-b79205b56c80)
   )
-  (text "[1]" (at 172.72 76.2 0)
+  (text "[1]" (at 173.99 72.39 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9871414e-586e-45fb-8dc7-b7fe49ec76fb)
   )
@@ -804,7 +804,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 402cd490-1fb2-4bf4-86aa-3a15237e3354)
   )
-  (hierarchical_label "+5V" (shape input) (at 76.2 69.85 180) (fields_autoplaced)
+  (hierarchical_label "+5VD" (shape input) (at 76.2 69.85 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 421802be-a7ee-43f3-b593-6bbbc2164261)
   )
@@ -848,7 +848,7 @@
   (symbol (lib_id "350_power_driver_motor_dc:TB67H400AFNG,EL") (at 147.32 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11cfa7f8-a824-45d2-80d8-fb707759e17e)
-    (property "Reference" "U5" (at 156.21 137.16 0)
+    (property "Reference" "U501" (at 156.21 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TB67H400AFNG" (at 156.21 139.7 0)
@@ -923,7 +923,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "U5") (unit 1)
+          (reference "U501") (unit 1)
         )
       )
     )
@@ -932,7 +932,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 144.78 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ec1b74d-fccc-44b8-a7e6-b271fbdb9640)
-    (property "Reference" "C7" (at 143.51 43.18 0)
+    (property "Reference" "C506" (at 143.51 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 142.24 45.72 0)
@@ -961,7 +961,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C7") (unit 1)
+          (reference "C506") (unit 1)
         )
       )
     )
@@ -970,10 +970,10 @@
   (symbol (lib_id "Device:C") (at 137.16 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f9aee1e-406e-4d4c-8385-fcfb87573698)
-    (property "Reference" "C9" (at 132.08 74.93 0)
+    (property "Reference" "C505" (at 128.905 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1uF" (at 129.54 77.47 0)
+    (property "Value" "0.1uF" (at 128.905 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 138.1252 78.74 0)
@@ -999,7 +999,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C9") (unit 1)
+          (reference "C505") (unit 1)
         )
       )
     )
@@ -1008,10 +1008,10 @@
   (symbol (lib_id "Device:R") (at 85.09 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32295361-30b1-4450-a70c-121afeace44d)
-    (property "Reference" "R5" (at 82.55 127 90)
+    (property "Reference" "R5" (at 80.645 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 85.09 127 90)
+    (property "Value" "10k" (at 80.01 127.635 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 86.868 127 90)
@@ -1040,7 +1040,7 @@
           (reference "R5") (unit 1)
         )
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "R5") (unit 1)
+          (reference "R501") (unit 1)
         )
       )
     )
@@ -1049,10 +1049,10 @@
   (symbol (lib_id "Device:C") (at 97.79 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bca9ad3-c33c-4a80-9634-45356145c305)
-    (property "Reference" "C6" (at 93.98 95.25 0)
+    (property "Reference" "C501" (at 91.44 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "270pF" (at 91.44 100.33 0)
+    (property "Value" "270pF" (at 91.44 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 98.7552 101.6 0)
@@ -1078,7 +1078,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C6") (unit 1)
+          (reference "C501") (unit 1)
         )
       )
     )
@@ -1087,10 +1087,10 @@
   (symbol (lib_id "Device:R") (at 162.56 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53349303-8181-4ecc-b296-10fa2fe90953)
-    (property "Reference" "R8" (at 160.02 77.47 0)
+    (property "Reference" "R504" (at 158.75 75.565 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.22R" (at 160.02 81.28 90)
+    (property "Value" "0.22R" (at 158.75 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 164.338 81.28 90)
@@ -1116,7 +1116,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "R8") (unit 1)
+          (reference "R504") (unit 1)
         )
       )
     )
@@ -1125,10 +1125,10 @@
   (symbol (lib_id "Device:R") (at 97.79 87.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e56b079-8eb5-4e62-b4d7-2bd8033161b0)
-    (property "Reference" "R7" (at 100.33 87.63 90)
+    (property "Reference" "R503" (at 93.98 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5.1K" (at 97.79 87.63 90)
+    (property "Value" "5.1K" (at 93.98 86.995 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 99.568 87.63 90)
@@ -1154,7 +1154,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "R7") (unit 1)
+          (reference "R503") (unit 1)
         )
       )
     )
@@ -1163,10 +1163,10 @@
   (symbol (lib_id "Device:R") (at 166.37 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8aaaa6a5-4dee-40e9-9656-5c3e9357b36b)
-    (property "Reference" "R9" (at 168.91 77.47 0)
+    (property "Reference" "R505" (at 169.545 75.565 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.22R" (at 168.91 81.28 90)
+    (property "Value" "0.22R" (at 169.545 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 168.148 81.28 90)
@@ -1192,7 +1192,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "R9") (unit 1)
+          (reference "R505") (unit 1)
         )
       )
     )
@@ -1201,7 +1201,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 137.16 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a55cb0d0-0bce-48e0-ba49-1ed6b09c469d)
-    (property "Reference" "C5" (at 135.89 43.18 0)
+    (property "Reference" "C504" (at 135.89 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 134.62 45.72 0)
@@ -1230,7 +1230,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C5") (unit 1)
+          (reference "C504") (unit 1)
         )
       )
     )
@@ -1239,10 +1239,10 @@
   (symbol (lib_id "Device:R") (at 85.09 137.16 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bba9e58b-c6d9-470f-ac0e-8ee0c92e2d37)
-    (property "Reference" "R5" (at 82.55 137.16 90)
+    (property "Reference" "R5" (at 80.645 135.255 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 85.09 137.16 90)
+    (property "Value" "10k" (at 80.01 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 86.868 137.16 90)
@@ -1271,7 +1271,7 @@
           (reference "R5") (unit 1)
         )
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "R6") (unit 1)
+          (reference "R502") (unit 1)
         )
       )
     )
@@ -1280,7 +1280,7 @@
   (symbol (lib_id "Device:C") (at 129.54 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfe36273-e6cf-4c15-8746-e187884c44fa)
-    (property "Reference" "C4" (at 128.27 43.18 0)
+    (property "Reference" "C502" (at 128.27 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 127 45.72 0)
@@ -1309,7 +1309,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C4") (unit 1)
+          (reference "C502") (unit 1)
         )
       )
     )
@@ -1318,10 +1318,10 @@
   (symbol (lib_id "Device:C") (at 133.35 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f29d66f9-e105-47ac-a4b0-47b54bc46b9e)
-    (property "Reference" "C8" (at 133.35 134.62 0)
+    (property "Reference" "C503" (at 136.525 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1uF" (at 133.35 139.7 0)
+    (property "Value" "0.1uF" (at 136.525 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 134.3152 140.97 0)
@@ -1347,7 +1347,7 @@
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
-          (reference "C8") (unit 1)
+          (reference "C503") (unit 1)
         )
       )
     )
