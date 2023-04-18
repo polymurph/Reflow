@@ -12,10 +12,10 @@
 
   (lib_symbols
     (symbol "350_power_driver_motor_dc:TB67H400AFNG,EL" (in_bom yes) (on_board yes)
-      (property "Reference" "U3" (at -12.7 29.21 0)
+      (property "Reference" "U501" (at 8.89 -24.13 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "TB67H400AFNG" (at -17.78 26.67 0)
+      (property "Value" "TB67H400AFNG" (at 8.89 -26.67 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "350_power_driver_motor_dc:HTSSOP48" (at 20.32 48.26 0)
@@ -236,6 +236,10 @@
         (pin no_connect line (at -8.89 35.56 0) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -24.13 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "PAD" (effects (font (size 1.27 1.27))))
         )
       )
       (symbol "TB67H400AFNG,EL_1_1"
@@ -920,6 +924,7 @@
     (pin "47" (uuid 5323ca5d-938a-4270-85d8-4f129cd92566))
     (pin "48" (uuid 431a61e4-a863-4ea4-938d-714a6282e146))
     (pin "6" (uuid 5bdc7f72-e889-4284-9f2f-ee4fc303fba8))
+    (pin "PAD" (uuid 9d650e42-5f43-46aa-b4f8-963859732fa5))
     (instances
       (project "ReflowController"
         (path "/2394cc2a-b9b0-4c0b-be11-1fc6085b0d5c/88b069ca-209a-441b-9ebc-a973d3ca8ace"
