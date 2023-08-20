@@ -1,0 +1,346 @@
+** Drc report for /home/key/git/reflow/Hardware/ReflowController/ReflowController.kicad_pcb **
+** Created on 2023-08-20 15:22:06 **
+
+** Found 62 DRC violations **
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.2250 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(138.4000 mm, 119.2500 mm): Track [GNDPWR] on F.Cu, length 1.2500 mm
+    @(138.4000 mm, 119.7500 mm): Pad 28 [unconnected-(U501-NC-Pad28)] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.2250 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(131.1000 mm, 114.7500 mm): Track [GNDPWR] on F.Cu, length 1.7000 mm
+    @(131.1000 mm, 114.2500 mm): Pad 10 [GND] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.2250 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(132.4000 mm, 121.2500 mm): Track [GNDPWR] on F.Cu, length 1.3000 mm
+    @(131.1000 mm, 120.7500 mm): Pad 23 [/Fan Driver/FAN_1_OUT_-] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.2250 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(131.1000 mm, 119.2500 mm): Track [GNDPWR] on F.Cu, length 0.8500 mm
+    @(131.1000 mm, 119.7500 mm): Pad 21 [unconnected-(U501-NC-Pad21)] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.2182 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(131.9500 mm, 119.2500 mm): Track [GNDPWR] on F.Cu, length 0.7778 mm
+    @(131.1000 mm, 119.7500 mm): Pad 21 [unconnected-(U501-NC-Pad21)] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.2250 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(137.1000 mm, 121.2500 mm): Track [GNDPWR] on F.Cu, length 1.3000 mm
+    @(138.4000 mm, 120.7500 mm): Pad 26 [/Fan Driver/FAN_2_OUT_-] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.2605 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(132.4000 mm, 121.2500 mm): Via [GNDPWR] on F.Cu - B.Cu
+    @(131.1000 mm, 120.7500 mm): Pad 23 [/Fan Driver/FAN_1_OUT_-] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.2605 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(137.1000 mm, 121.2500 mm): Via [GNDPWR] on F.Cu - B.Cu
+    @(138.4000 mm, 120.7500 mm): Pad 26 [/Fan Driver/FAN_2_OUT_-] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.2750 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(132.5000 mm, 119.8000 mm): Via [GNDPWR] on F.Cu - B.Cu
+    @(131.1000 mm, 119.7500 mm): Pad 21 [unconnected-(U501-NC-Pad21)] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(129.7755 mm, 114.2000 mm): Track [GND] on F.Cu, length 1.2745 mm
+    @(131.1000 mm, 114.7500 mm): Pad 11 [GNDPWR] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'GND'; Severity: error
+    @(129.7245 mm, 113.7000 mm): Track [GND] on F.Cu, length 1.3255 mm
+    @(131.1000 mm, 113.2500 mm): Pad 8 [/FAN_2_EN] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'GND'; Severity: error
+    @(83.6750 mm, 108.2500 mm): Pad 17 [/MISO] of U401 on F.Cu
+    @(83.0250 mm, 108.2500 mm): Pad 18 [GND] of U401 on F.Cu
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'GND'; Severity: error
+    @(83.0250 mm, 108.2500 mm): Pad 18 [GND] of U401 on F.Cu
+    @(82.3750 mm, 108.2500 mm): Pad 19 [/TemperatureReader/T_AGND] of U401 on F.Cu
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'GND'; Severity: error
+    @(131.1000 mm, 110.7500 mm): Pad 3 [/FAN_1_EN] of U501 on F.Cu
+    @(131.1000 mm, 111.2500 mm): Pad 4 [GND] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'GND'; Severity: error
+    @(131.1000 mm, 111.2500 mm): Pad 4 [GND] of U501 on F.Cu
+    @(131.1000 mm, 111.7500 mm): Pad 5 [/FAN_1_PWM] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'GND'; Severity: error
+    @(131.1000 mm, 113.2500 mm): Pad 8 [/FAN_2_EN] of U501 on F.Cu
+    @(131.1000 mm, 113.7500 mm): Pad 9 [GND] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(131.1000 mm, 114.2500 mm): Pad 10 [GND] of U501 on F.Cu
+    @(131.1000 mm, 114.7500 mm): Pad 11 [GNDPWR] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(131.1000 mm, 114.7500 mm): Pad 11 [GNDPWR] of U501 on F.Cu
+    @(131.1000 mm, 115.2500 mm): Pad 12 [unconnected-(U501-NC-Pad12)] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(131.1000 mm, 118.7500 mm): Pad 19 [unconnected-(U501-NC-Pad19)] of U501 on F.Cu
+    @(131.1000 mm, 119.2500 mm): Pad 20 [GNDPWR] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(131.1000 mm, 119.2500 mm): Pad 20 [GNDPWR] of U501 on F.Cu
+    @(131.1000 mm, 119.7500 mm): Pad 21 [unconnected-(U501-NC-Pad21)] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(131.1000 mm, 120.7500 mm): Pad 23 [/Fan Driver/FAN_1_OUT_-] of U501 on F.Cu
+    @(131.1000 mm, 121.2500 mm): Pad 24 [GNDPWR] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(138.4000 mm, 121.2500 mm): Pad 25 [GNDPWR] of U501 on F.Cu
+    @(138.4000 mm, 120.7500 mm): Pad 26 [/Fan Driver/FAN_2_OUT_-] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(138.4000 mm, 119.7500 mm): Pad 28 [unconnected-(U501-NC-Pad28)] of U501 on F.Cu
+    @(138.4000 mm, 119.2500 mm): Pad 29 [GNDPWR] of U501 on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.1500 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(138.4000 mm, 119.2500 mm): Pad 29 [GNDPWR] of U501 on F.Cu
+    @(138.4000 mm, 118.7500 mm): Pad 30 [unconnected-(U501-NC-Pad30)] of U501 on F.Cu
+[clearance]: Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; Severity: error
+    @(-0.5000 mm, -0.2500 mm): Polygon on F.Cu
+    @(86.0000 mm, 106.3000 mm): Zone [/TemperatureReader/T_AGND] on F.Cu and 3 more
+[clearance]: Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; Severity: error
+    @(-2.0000 mm, -1.0000 mm): Polygon on F.Cu
+    @(71.5000 mm, 54.8000 mm): Zone [/PSU/24V_GND_IN] on F.Cu
+[clearance]: Clearance violation (netclass 'POWER_GND' clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(-2.0000 mm, -1.0000 mm): Polygon on F.Cu
+    @(109.2500 mm, 60.0000 mm): Zone [GNDPWR] on F.Cu
+[clearance]: Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; Severity: error
+    @(-2.0000 mm, -1.0000 mm): Polygon on F.Cu
+    @(217.7500 mm, 103.7500 mm): Zone [+24V] on F.Cu
+[clearance]: Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; Severity: error
+    @(-2.0000 mm, -1.0000 mm): Polygon on F.Cu
+    @(217.7500 mm, 103.7500 mm): Zone [+24V] on F.Cu
+[zones_intersect]: Copper zones intersect
+    Local override; Severity: error
+    @(135.0000 mm, 42.5000 mm): Zone [+5V] on F.Cu
+    @(135.0000 mm, 42.5000 mm): Zone [+3.3V] on F.Cu
+[zones_intersect]: Copper zones intersect
+    Local override; Severity: error
+    @(135.0000 mm, 42.5000 mm): Zone [+5V] on F.Cu
+    @(135.0000 mm, 42.5000 mm): Zone [+3.3V] on F.Cu
+[zones_intersect]: Copper zones intersect
+    Local override; Severity: error
+    @(135.0000 mm, 42.5000 mm): Zone [+5V] on F.Cu
+    @(135.0000 mm, 42.5000 mm): Zone [+3.3V] on F.Cu
+[zones_intersect]: Copper zones intersect
+    Local override; Severity: error
+    @(135.0000 mm, 42.5000 mm): Zone [+5V] on F.Cu
+    @(135.0000 mm, 42.5000 mm): Zone [+3.3V] on F.Cu
+[zones_intersect]: Copper zones intersect
+    Local override; Severity: error
+    @(135.0000 mm, 42.5000 mm): Zone [+5V] on F.Cu
+    @(135.0000 mm, 42.5000 mm): Zone [+3.3V] on F.Cu
+[zones_intersect]: Copper zones intersect
+    Rule: netclass 'GND'; Severity: error
+    @(71.5000 mm, 49.5000 mm): Zone [/PSU/+24V_IN] on F.Cu
+    @(107.0000 mm, 138.9991 mm): Zone [GND] on F.Cu and 1 more
+[zones_intersect]: Copper zones intersect
+    Rule: netclass 'GND'; Severity: error
+    @(71.5000 mm, 49.5000 mm): Zone [/PSU/+24V_IN] on F.Cu
+    @(107.0000 mm, 138.9991 mm): Zone [GND] on F.Cu and 1 more
+[zones_intersect]: Copper zones intersect
+    Rule: netclass 'GND'; Severity: error
+    @(71.5000 mm, 49.5000 mm): Zone [/PSU/+24V_IN] on F.Cu
+    @(107.0000 mm, 138.9991 mm): Zone [GND] on F.Cu and 1 more
+[zones_intersect]: Copper zones intersect
+    Rule: netclass 'GND'; Severity: error
+    @(71.5000 mm, 49.5000 mm): Zone [/PSU/+24V_IN] on F.Cu
+    @(107.0000 mm, 138.9991 mm): Zone [GND] on F.Cu and 1 more
+[zones_intersect]: Copper zones intersect
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(71.5000 mm, 60.0000 mm): Zone [/PSU/24V_GND_IN] on In1.Cu
+    @(109.0000 mm, 51.0000 mm): Zone [GNDPWR] on In1.Cu
+[zones_intersect]: Copper zones intersect
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(71.5000 mm, 60.0000 mm): Zone [/PSU/24V_GND_IN] on In1.Cu
+    @(109.0000 mm, 51.0000 mm): Zone [GNDPWR] on In1.Cu
+[zones_intersect]: Copper zones intersect
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(109.0000 mm, 51.0000 mm): Zone [GNDPWR] on In1.Cu
+    @(71.5000 mm, 60.0000 mm): Zone [/PSU/24V_GND_IN] on In1.Cu
+[zones_intersect]: Copper zones intersect
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(109.0000 mm, 51.0000 mm): Zone [GNDPWR] on In1.Cu
+    @(71.5000 mm, 60.0000 mm): Zone [/PSU/24V_GND_IN] on In1.Cu
+[zones_intersect]: Copper zones intersect
+    Rule: netclass 'POWER_GND'; Severity: error
+    @(109.0000 mm, 51.0000 mm): Zone [GNDPWR] on In1.Cu
+    @(71.5000 mm, 60.0000 mm): Zone [/PSU/24V_GND_IN] on In1.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(84.4000 mm, 110.4000 mm): Footprint NT402
+    @(84.6500 mm, 111.7500 mm): Footprint U401
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(96.7000 mm, 98.6000 mm): Footprint NT12
+    @(109.3600 mm, 85.7900 mm): Footprint A1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(81.4000 mm, 88.4000 mm): Footprint NT9
+    @(109.3600 mm, 85.7900 mm): Footprint A1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(84.0000 mm, 98.5000 mm): Footprint NT11
+    @(109.3600 mm, 85.7900 mm): Footprint A1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(96.8000 mm, 88.6000 mm): Footprint NT13
+    @(109.3600 mm, 85.7900 mm): Footprint A1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(89.0000 mm, 87.5000 mm): Footprint NT15
+    @(109.3600 mm, 85.7900 mm): Footprint A1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(99.2000 mm, 98.6000 mm): Footprint NT8
+    @(109.3600 mm, 85.7900 mm): Footprint A1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(109.3600 mm, 85.7900 mm): Footprint A1
+    @(99.0000 mm, 88.6000 mm): Footprint NT7
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(109.3600 mm, 85.7900 mm): Footprint A1
+    @(94.1000 mm, 98.6000 mm): Footprint NT14
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(109.3600 mm, 85.7900 mm): Footprint A1
+    @(79.0000 mm, 88.4000 mm): Footprint NT10
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(109.3600 mm, 85.7900 mm): Footprint A1
+    @(91.6000 mm, 98.5000 mm): Footprint NT6
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(211.1000 mm, 46.4000 mm): Footprint C603
+    @(209.2500 mm, 50.0000 mm): Footprint SW601
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(211.4000 mm, 58.2000 mm): Footprint C604
+    @(209.2500 mm, 50.0000 mm): Footprint SW601
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(209.1000 mm, 58.3000 mm): Footprint R602
+    @(209.2500 mm, 50.0000 mm): Footprint SW601
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(209.3000 mm, 46.4000 mm): Footprint R601
+    @(209.2500 mm, 50.0000 mm): Footprint SW601
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(209.2500 mm, 50.0000 mm): Footprint SW601
+    @(194.1000 mm, 58.3000 mm): Footprint C605
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(86.0000 mm, 106.3000 mm): Zone [/TemperatureReader/T_AGND] on F.Cu and 3 more
+    @(82.3750 mm, 108.2500 mm): Pad 19 [/TemperatureReader/T_AGND] of U401 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(135.0000 mm, 42.5000 mm): Zone [+3.3V] on F.Cu
+    @(136.0000 mm, 43.8500 mm): Pad 2 [+3.3V] of U302 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(107.0000 mm, 138.9991 mm): Zone [GND] on F.Cu and 1 more
+    @(83.0250 mm, 108.2500 mm): Pad 18 [GND] of U401 on F.Cu
+
+** Found 23 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(82.3750 mm, 117.2000 mm): Track [+3.3V] on F.Cu, length 0.5657 mm
+    @(81.9500 mm, 116.9500 mm): Track [+3.3V] on In2.Cu, length 4.1719 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(199.9000 mm, 95.8000 mm): Track [+3.3V] on B.Cu, length 14.0500 mm
+    @(199.9125 mm, 105.0000 mm): Pad 2 [+3.3V] of R607 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(116.5000 mm, 57.7500 mm): PTH pad 1 [+24V] of C304
+    @(113.0000 mm, 58.5250 mm): Pad 2 [+24V] of C308 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(115.0000 mm, 52.0000 mm): Via [+24V] on F.Cu - B.Cu
+    @(116.8675 mm, 48.2825 mm): PTH pad 1 [+24V] of U301
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(97.0000 mm, 53.8000 mm): Pad 1 [+24V] of C302 on F.Cu
+    @(93.0500 mm, 51.0000 mm): Pad 2 [+24V] of L301 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(112.0000 mm, 53.0000 mm): Via [+24V] on F.Cu - B.Cu
+    @(106.5000 mm, 53.8000 mm): Pad 1 [+24V] of C303 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(106.5000 mm, 53.8000 mm): Pad 1 [+24V] of C303 on F.Cu
+    @(97.0000 mm, 53.8000 mm): Pad 1 [+24V] of C302 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(84.4000 mm, 109.9000 mm): Pad 1 [GND] of NT402 on F.Cu
+    @(85.4000 mm, 109.9000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(107.0000 mm, 138.9991 mm): Zone [GND] on F.Cu and 1 more
+    @(138.4000 mm, 109.7500 mm): Pad 48 [GND] of U501 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(130.9375 mm, 105.0000 mm): Pad 2 [GND] of C505 on F.Cu
+    @(129.1375 mm, 108.6000 mm): Pad 2 [GND] of C501 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(68.0000 mm, 41.0000 mm): Zone [GND] on B.Cu
+    @(87.0000 mm, 128.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(205.8625 mm, 82.2500 mm): Pad 1 [/ui/BTN_DOWN] of C607 on B.Cu
+    @(198.0250 mm, 79.7500 mm): Track [/ui/BTN_DOWN] on B.Cu, length 7.9500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(205.8625 mm, 93.7500 mm): Pad 1 [/ui/BTN_SELECT] of C611 on B.Cu
+    @(198.0000 mm, 91.2500 mm): Track [/ui/BTN_SELECT] on B.Cu, length 7.9500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(187.2500 mm, 118.2500 mm): Track [/IO/HSS_1_OUT_+] on F.Cu, length 2.8284 mm
+    @(181.1500 mm, 112.8260 mm): Pad 24 [/IO/HSS_1_OUT_+] of U701 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(177.9500 mm, 119.0000 mm): Track [/IO/HSS_2_OUT_+] on F.Cu, length 4.3500 mm
+    @(177.9500 mm, 112.8260 mm): Pad 20 [/IO/HSS_2_OUT_+] of U701 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(172.3500 mm, 112.8260 mm): Pad 13 [/IO/HSS_4_OUT_+] of U701 on F.Cu
+    @(169.0875 mm, 119.5000 mm): Track [/IO/HSS_4_OUT_+] on F.Cu, length 1.5875 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(175.5500 mm, 116.5000 mm): Track [/IO/HSS_3_OUT_+] on F.Cu, length 2.9000 mm
+    @(175.5500 mm, 112.8260 mm): Pad 17 [/IO/HSS_3_OUT_+] of U701 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(147.5000 mm, 134.3500 mm): PTH pad 1 [/Fan Driver/FAN_2_OUT_+] of J111
+    @(147.5000 mm, 125.1500 mm): Track [/Fan Driver/FAN_2_OUT_+] on F.Cu, length 2.1500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(151.5000 mm, 125.1500 mm): PTH pad 2 [/Fan Driver/FAN_2_OUT_-] of J111
+    @(144.2500 mm, 124.2500 mm): Track [/Fan Driver/FAN_2_OUT_-] on F.Cu, length 5.3033 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(86.5000 mm, 84.2500 mm): Pad 1 [/uC/PF0] of NT4 on B.Cu
+    @(86.5000 mm, 85.7900 mm): PTH pad 10 [/uC/PF0] of A1
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(83.9600 mm, 85.7900 mm): PTH pad 11 [/uC/PF1] of A1
+    @(84.0000 mm, 84.4000 mm): Pad 1 [/uC/PF1] of NT5 on B.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **

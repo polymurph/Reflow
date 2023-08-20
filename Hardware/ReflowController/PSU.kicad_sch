@@ -2313,7 +2313,7 @@
     (in_bom yes) (on_board yes) (dnp no)
     (uuid efba845c-15d1-4c65-9994-c4de5da4a0bb)
     (property "Reference" "NT34" (at 125.73 40.005 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "NetTie_2" (at 125.73 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
